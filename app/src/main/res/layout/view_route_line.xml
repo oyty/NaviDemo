@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:elevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true">
+
+            <Button
+                android:id="@+id/mSimulationAction"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="模拟导航"
+                android:gravity="center"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/mNavigationAction"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="实时导航"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_toLeftOf="@+id/right"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="16dp"
+            android:text="深圳线路按实际到货及时看到发货时间肯定符合设计开发和数据库的恢复健康是"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
